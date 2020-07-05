@@ -335,17 +335,21 @@ footer div span {
     }
     main h1 {
         padding-top: 5vh;
+        font-size: 1.6em;
     }
     main {
         height: 60vh;
     }
     section:first-of-type {
-        padding: 0;
+        margin-top: -15vh;
+        font-size: 0.6em;
     }
+
     section:nth-of-type(2) {
+        text-align: center;
         width: 90%;
-        padding-top: 5vh;
-        margin-bottom: 15vh;
+        margin-top: -5vh;
+        margin-bottom: 10vh;
         background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/home_deliverables.png) left/contain no-repeat;
     }
     section:nth-of-type(2) article {
@@ -353,13 +357,15 @@ footer div span {
         padding-left: 0;
     }
     section:nth-of-type(3) {
+        text-align: center;
         width: 90%;
         padding-top: 0;
         padding-bottom: 0;
-        background: linear-gradient(rgba(255, 255, 255, .6), rgba(255, 255, 255, .6)), url(../img/home_how_it_works.png) right/contain no-repeat rgba(234, 222, 255, 0.5);
+        background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/home_how_it_works.png) right/contain no-repeat rgba(234, 222, 255, 0.6);
     }
     section:nth-of-type(3) ol, section:nth-of-type(3) p {
         width: 90%;
+        color: #848689;
     }
     section:nth-of-type(4) {
         width: 90%;
@@ -367,7 +373,7 @@ footer div span {
     }
     section:nth-of-type(4) div:first-of-type {
         background: url(../img/28.png) center/contain no-repeat;
-        margin: -10vh 0;
+        margin: -15vh 0;
     }
     section:nth-of-type(4) article:nth-of-type(2) {
         width: 95%;
@@ -378,7 +384,8 @@ footer div span {
         margin: 0 auto;
         text-align: center;
         padding-left: 0;
-        padding-top: 5vh;
+        margin-top: -7vh;
+        margin-bottom: -2vh;
     }
     footer img {
         display: block;
