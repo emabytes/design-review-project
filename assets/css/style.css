@@ -58,11 +58,11 @@ header ul {
     font-size: 0.9em;
     padding-left: 10px;
     color: #2B2C2E;
+    transition: all 0.5s ease;
 }
 
 .nav a:hover {
     color: #d7dbe0;
-    transition: all 0.5s ease;
 }
 
 .logo {
@@ -76,12 +76,12 @@ header ul {
     border: 2px solid black;
     padding: 0.3em 3em;
     border-radius: 3px;
+    transition: all 1s ease;
 }
 
 .btn:hover {
     background: black;
     color: white;
-    transition: all 1s ease;
 }
 
 main {
